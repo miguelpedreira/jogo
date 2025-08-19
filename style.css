@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+;
+}
+
+body {
+  background-image: url(https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg?cs=srgb&dl=pexels-jeshoots-com-147458-442576.jpg&fm=jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-repeat: repeat-y;
+  height: 100vh;
+justify-content: center;
+}
+.button{
+   border-radius: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: absolute;
+  margin-top: 0p
+  cursor: pointer;
+  color: #ffffff;
+  
+}
+div{
+  display: inline-bloc;
+}
+
+
+  .titulo-2{
+    
+    right: 10px;
+    display: inline-block
+    margin-top: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+.h1{
+  text-align: center;
+}
+  
+
+#painel {
+  display:inline-block
+  margin-top: 80px;
+  column-gap: 50px;
+  cursor: pointer;
+  display: flex;
+  margin-left: 150px;
+  border-radius: 10PX;
+  color: red;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+  body {
+    background-size: cover;
+    height: auto;
+    justify-content: center;
+  }
+
+  #painel {
+    margin-left: 10px;
+    margin-top: 30px;
+    flex-direction: column;
+    column-gap: 0;
+    width: 90vw;
+    border-radius: 10px;
+  }
+
+  .titulo-2 {
+    font-size: 1.2em;
+    margin-top: 10px;
+    right: 0;
+  }
+
+  .button {
+    width: 100%;
+    margin-top: 10px;
+    font-size: 1em;
+  }
+}
+
+/* Responsividade para telas muito pequenas */
+@media (max-width: 480px) {
+  #painel {
+    width: 100vw;
+    margin-left: 0;
+    margin-top: 10px;
+    padding: 5px;
+  }
+
+  .titulo-2 {
+    font-size: 1em;
+  }
+}
